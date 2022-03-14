@@ -8,18 +8,19 @@ console.log('JS Ok')
 
 //creo array con numeri interi
 const numeri = [1, 2, 3, 4, 5];
-let sum = 0;
+let somma = 0;
 
-for (let i=0; i <= numeri.length; i ++) {
-    const numeriDispari = (i % 2 != 0);
-   
-    console.log(numeriDispari);
+for (let i = 0; i < numeri.length; i ++) {
     
+    const modulo = i % 2;
+   
+    if(modulo !==0 ){ //(modulo===1)
+        somma = somma + numeri[i]; //somma += numeri[i]
+    }   
 }
 
 
 
-// faccio somma alla fine del ciclo fo
+// faccio somma alla fine del ciclo for
 
-sommaDispari = sum(numeriDispari);
- console.log(sommaDispari);
+ console.log('La somma è', somma);

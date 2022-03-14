@@ -6,14 +6,36 @@ console.log('JS Ok')
 // Esegui questo programma in due versioni, con il for e con il while.
 
 
-let somma = 0;
+// let somma = 0;
 
-for (let i=0; i < 5; i++) {
-    const numeroUtente = parseInt(prompt('Inserisci un numero'));
-    if(!isNaN(numeroUtente)){
-        somma= somma + numeroUtente; //somma degli elementi nell'array
-    }
+// for (let i=0; i < 5; i++) {
+//     const numeroUtente = parseInt(prompt('Inserisci un numero'));
+//     if(!isNaN(numeroUtente)){
+//         somma= somma + numeroUtente; //somma degli elementi nell'array
+//     }
 
+// }
+// //stampo somma
+// console.log(somma);
+
+
+//ESERCIZIO CON WHILE
+// true false
+
+let i = 0;
+
+
+while (!isNaN(i<5)) {
+    i = parseInt(prompt('Inserisci un numero'));
+    i++;
 }
+
+console.log(i);
+
+
+//somma = somma + numeroUtente;
+
 //stampo somma
-console.log(somma);
+//console.log(somma);
+
+
