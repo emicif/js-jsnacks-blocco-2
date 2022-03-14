@@ -22,6 +22,10 @@ console.log('La somma dei numeri scelti è', somma);
 
 
 
+
+
+
+
 //ESERCIZIO CON WHILE
 
 let somma = 0;
@@ -40,8 +44,6 @@ while (i < 5) {
     //codice per la gestione dell'uscita dal ciclo
     i++; 
 }
-
-console.log(i);
 
 
 somma = somma + numeroUtente;
